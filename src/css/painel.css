@@ -1,0 +1,74 @@
+:root {
+    --cor-fundo-escuro: #e9e9e9;
+    --cor-fundo-branco: white;
+    --cor-decorativa01: rgb(70, 143, 238);
+    --cor-fonte: rgb(0, 0, 0);
+    --cor-linha: rgb(209, 209, 209); 
+}
+
+.bloco {
+    background-color: var(--cor-fundo-branco);
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--cor-fonte);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-fundo-escuro);
+}
+
+header {   
+    margin-bottom: -10px;
+    margin-top: 5px;
+}
+
+.divHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    max-width: 150px;
+}
+
+.divSection01 {
+    
+}
+
+.meusAgendamentos {
+    font-size: clamp(20px, 1.4vw, 60px);
+    text-align: center;
+    padding-top: 50px;
+}
+
+table {
+    border-spacing: 0;
+    font-size: clamp(10px, 1vw, 60px);
+    width: 100%;
+    padding: 10px;
+}
+
+th, td {
+    border-bottom: solid 1px;  
+    border-color: var(--cor-linha); 
+    text-align: center;
+    padding: 5px;
+}
+
+th {
+    font-weight: 500;
+}
